@@ -1,0 +1,74 @@
+:root {
+    --primary-color: #B22222;
+    --bg-dark: #000000;
+    --bg-light-dark: #161616;
+    --hover-dark: #1a1919;
+    --text-light: #ffffff;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    background-color: var(--bg-dark);
+}
+
+.navbar-brand, .navbar, .nav-link, .section-tittle, .section-description {
+    color: var(--primary-color);
+}
+
+.navbar-brand:hover {
+    color: var(--primary-color);
+}
+
+.carousel-item img {
+    max-height: 620px;
+    height: auto;
+}
+
+.banners img {
+    max-height: 500px;
+    height: auto;
+}
+
+#ofertas, #contato {
+    background-color: var(--bg-dark);
+}
+
+.color-background {
+    background-color: var(--bg-light-dark);
+}
+
+
+.nav-pills .nav-link {
+    color: var(--primary-color);
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .nav-link.active:hover,
+.nav-pills .nav-link.active:focus {
+    background-color: var(--primary-color) !important;
+    color: var(--text-light) !important;
+}
+
+.nav-pills .nav-link:hover {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    scale: 1.03;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.accordion-header .accordion-button, .accordion-body {
+    background-color: var(--bg-dark);
+    color: var(--primary-color);
+}
+
+.accordion-header .accordion-button:hover {
+    background-color: var(--hover-dark);
+    color: var(--primary-color);
+}
+
+.text-contact {
+    max-width: 300px;
+}
