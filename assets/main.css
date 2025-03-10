@@ -23,7 +23,8 @@ header {
 }
 
 .carousel-item img {
-    height: 620px;
+    max-height: 620px;
+    height: auto;
 }
 
 .banners img {
@@ -70,4 +71,11 @@ header {
 
 .text-contact {
     max-width: 300px;
+}
+
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 200px; /* Ajuste a altura para dispositivos móveis */
+        object-fit: cover;
+    }
 }
