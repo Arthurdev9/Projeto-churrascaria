@@ -23,8 +23,7 @@ header {
 }
 
 .carousel-item img {
-    max-height: 620px;
-    height: auto;
+    height: 620px;
 }
 
 .banners img {
